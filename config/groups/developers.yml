@@ -1,11 +1,11 @@
 recipes:
     global:
         - dotfiles::gitconfig
-        - applications::sass
-        - applications::ssh_config
         - dotfiles::vim
         - dotfiles::workspace
     mac_os_x:
+        - applications::sass
+        - applications::ssh_config
         - applications::sublime_text_3
         - applications::gnu-tar
 attributes:
