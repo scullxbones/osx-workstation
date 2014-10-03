@@ -21,7 +21,6 @@ attributes:
             - watch
         cask_apps:
             - google-chrome
-            - google-hangouts
             - firefox
             - adobe-reader
             - flash
@@ -50,4 +49,4 @@ attributes:
             - coffee-script
             - browser-sync
     gems:
-		- sass
+        - sass
