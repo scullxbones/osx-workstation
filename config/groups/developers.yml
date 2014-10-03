@@ -1,0 +1,52 @@
+recipes:
+    global:
+        - dotfiles::gitconfig
+        - applications::sass
+        - applications::ssh_config
+        - dotfiles::vim
+        - dotfiles::workspace
+    mac_os_x:
+        - applications::sublime_text_3
+        - applications::gnu-tar
+attributes:
+    homebrewalt:
+        apps:
+            - git
+            - git-extras
+            - wget
+            - pwgen
+            - xmlstarlet
+            - pv
+            - htop-osx
+            - git-flow
+            - watch
+        cask_apps:
+            - google-chrome
+            - google-hangouts
+            - firefox
+            - adobe-reader
+            - flash
+            - dropbox
+            - google-drive
+            - evernote
+            - vagrant
+            - virtualbox
+            - intellij-idea-ce
+            - java
+            - sourcetree
+            - chefdk
+            - gulp
+            - mongodb
+            - node
+            - skitch
+            - skype
+            - snagit
+            - tunnelblick
+    nodejs:
+        apps:
+            - bower
+            - grunt
+            - grunt-cli
+            - gulp
+            - coffee-script
+            - browser-sync
