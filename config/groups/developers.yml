@@ -7,6 +7,7 @@ recipes:
     mac_os_x:
         - applications::sublime_text_3
         - applications::gnu-tar
+        - ohmyzsh::default
 attributes:
     homebrewalt:
         apps:
@@ -50,3 +51,22 @@ attributes:
             - browser-sync
     gems:
         - sass
+    oh_my_zsh:
+        theme: ys
+        plugins:
+            - brew
+            - osx
+            - bundler
+            - gem
+            - node
+            - npm
+            - scala
+            - sbt
+            - vagrant
+            - knife
+            - knife_ssh
+            - github
+            - git
+            - coffee
+            - themes
+

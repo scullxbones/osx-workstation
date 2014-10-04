@@ -17,3 +17,10 @@ attributes:
             - git-extras
         cask_apps:
             - sourcetree
+    oh_my_zsh:
+        users:
+            -
+                login: brian
+                home: /Users/brian
+
+
