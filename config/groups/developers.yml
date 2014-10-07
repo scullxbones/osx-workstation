@@ -7,7 +7,7 @@ recipes:
     mac_os_x:
         - applications::sublime_text_3
         - applications::gnu-tar
-        - ohmyzsh::default
+        - applications::gems
 attributes:
     homebrewalt:
         apps:
@@ -20,25 +20,20 @@ attributes:
             - htop-osx
             - git-flow
             - watch
+            # requires brew link pcre
+            - nginx
+            - sbt
         cask_apps:
-            - google-chrome
-            - firefox
-            - adobe-reader
-            - flash
-            - dropbox
-            - google-drive
             - evernote
             - vagrant
             - virtualbox
             - intellij-idea-ce
             - java
-            - sourcetree
             - chefdk
             - gulp
             - mongodb
             - node
             - skitch
-            - skype
             - snagit
             - tunnelblick
     nodejs:
@@ -51,6 +46,7 @@ attributes:
             - browser-sync
     gems:
         - sass
+        - compass
     oh_my_zsh:
         theme: ys
         plugins:

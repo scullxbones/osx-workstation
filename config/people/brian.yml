@@ -3,6 +3,7 @@ groups:
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
+        - ohmyzsh::default
 attributes:
     osxdefaults:
         computername: brian-mbp
@@ -16,7 +17,7 @@ attributes:
         apps:
             - git-extras
         cask_apps:
-            - sourcetree
+            - skype
     oh_my_zsh:
         users:
             -

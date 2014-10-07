@@ -10,8 +10,14 @@ attributes:
             - git
         cask_apps:
             - google-chrome
+            - firefox
+            - adobe-reader
+            - flash
+            - dropbox
+            - google-drive
             - hipchat
-        cask_fonts:   
+            - sourcetree
+        cask_fonts:
             - inconsolata
     nodejs:
         apps:
